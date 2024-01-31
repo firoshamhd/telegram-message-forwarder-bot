@@ -1,20 +1,20 @@
 from jsonschema import validate
 
-"""
+
 [pyrogram]
-api_id = 12345
-api_hash = "0123456789abcdef0123456789abcdef"
-bot_token = "123456789:ABCdefGhIJKlmNoPQRsTUVwxyZ"
+api_id = 17432758
+api_hash = "c9e31fda0ce722e3f3033a9d4f140783"
+bot_token = "6569801576:AAGO1V6U0Gcy002psWagco7DH06_cEnWYk4"
 session_string = "1BVn1-ABCD1234efgh5678IJKLmnoPQRsTUVwxyZ"
-sudo_users = [123456789, 123456789]
+sudo_users = [6103642139]
 
 [[chats]]
-from = "123456789"
+from = ""
 to = "123456789"
 
 [[chats]]
-from = ["123456789", "123456789"]
-to = "123456789"
+from = [-1001642374850]
+to = -1002067899187
 
 [[chats]]
 from = "123456789"
@@ -23,7 +23,7 @@ to = ["123456789", "123456789"]
 [[chats]]
 from = ["123456789", "123456789"]
 to = ["123456789", "123456789"]
-"""
+
 
 CONFIG_SCHEMA = {
     "type": "object",
@@ -77,3 +77,4 @@ CONFIG_SCHEMA = {
 
 def validate_config(config):
     validate(config, CONFIG_SCHEMA)
+    
