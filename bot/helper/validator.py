@@ -9,7 +9,7 @@ session_string = "1BVn1-ABCD1234efgh5678IJKLmnoPQRsTUVwxyZ"
 sudo_users = [6103642139]
 
 [[chats]]
-from = ""
+from = " "
 to = "123456789"
 
 [[chats]]
