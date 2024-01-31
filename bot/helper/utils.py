@@ -1,9 +1,9 @@
 def parse_chats(chats):
-    """
+    
 
     [[chats]]
-    from = "123456789"
-    to = "123456789"
+    from = -1001642374850
+    to = -1002067899187
 
     [[chats]]
     from = ["123456789", "123456789"]
@@ -16,7 +16,7 @@ def parse_chats(chats):
     [[chats]]
     from = ["123456789", "123456789"]
     to = ["123456789", "123456789"]
-    """
+    
 
     # Set all from values to a list and, from => [to, replace] in dict
     monitored_chats = set()
